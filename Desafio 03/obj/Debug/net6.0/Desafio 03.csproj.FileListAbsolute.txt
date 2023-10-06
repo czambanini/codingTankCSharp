@@ -1,0 +1,28 @@
+D:\Documentos\Cursos\DiverseDev\Coding Tank\Aula 01\Desafio 03\bin\Debug\net6.0\Desafio 03.exe
+D:\Documentos\Cursos\DiverseDev\Coding Tank\Aula 01\Desafio 03\bin\Debug\net6.0\Desafio 03.deps.json
+D:\Documentos\Cursos\DiverseDev\Coding Tank\Aula 01\Desafio 03\bin\Debug\net6.0\Desafio 03.runtimeconfig.json
+D:\Documentos\Cursos\DiverseDev\Coding Tank\Aula 01\Desafio 03\bin\Debug\net6.0\Desafio 03.dll
+D:\Documentos\Cursos\DiverseDev\Coding Tank\Aula 01\Desafio 03\bin\Debug\net6.0\Desafio 03.pdb
+D:\Documentos\Cursos\DiverseDev\Coding Tank\Aula 01\Desafio 03\obj\Debug\net6.0\Desafio 03.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documentos\Cursos\DiverseDev\Coding Tank\Aula 01\Desafio 03\obj\Debug\net6.0\Desafio 03.AssemblyInfoInputs.cache
+D:\Documentos\Cursos\DiverseDev\Coding Tank\Aula 01\Desafio 03\obj\Debug\net6.0\Desafio 03.AssemblyInfo.cs
+D:\Documentos\Cursos\DiverseDev\Coding Tank\Aula 01\Desafio 03\obj\Debug\net6.0\Desafio 03.csproj.CoreCompileInputs.cache
+D:\Documentos\Cursos\DiverseDev\Coding Tank\Aula 01\Desafio 03\obj\Debug\net6.0\Desafio 03.dll
+D:\Documentos\Cursos\DiverseDev\Coding Tank\Aula 01\Desafio 03\obj\Debug\net6.0\refint\Desafio 03.dll
+D:\Documentos\Cursos\DiverseDev\Coding Tank\Aula 01\Desafio 03\obj\Debug\net6.0\Desafio 03.pdb
+D:\Documentos\Cursos\DiverseDev\Coding Tank\Aula 01\Desafio 03\obj\Debug\net6.0\Desafio 03.genruntimeconfig.cache
+D:\Documentos\Cursos\DiverseDev\Coding Tank\Aula 01\Desafio 03\obj\Debug\net6.0\ref\Desafio 03.dll
+D:\Documentos\Cursos\DiverseDev\Coding Tank\Desafios\Desafio 03\bin\Debug\net6.0\Desafio 03.exe
+D:\Documentos\Cursos\DiverseDev\Coding Tank\Desafios\Desafio 03\bin\Debug\net6.0\Desafio 03.deps.json
+D:\Documentos\Cursos\DiverseDev\Coding Tank\Desafios\Desafio 03\bin\Debug\net6.0\Desafio 03.runtimeconfig.json
+D:\Documentos\Cursos\DiverseDev\Coding Tank\Desafios\Desafio 03\bin\Debug\net6.0\Desafio 03.dll
+D:\Documentos\Cursos\DiverseDev\Coding Tank\Desafios\Desafio 03\bin\Debug\net6.0\Desafio 03.pdb
+D:\Documentos\Cursos\DiverseDev\Coding Tank\Desafios\Desafio 03\obj\Debug\net6.0\Desafio 03.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documentos\Cursos\DiverseDev\Coding Tank\Desafios\Desafio 03\obj\Debug\net6.0\Desafio 03.AssemblyInfoInputs.cache
+D:\Documentos\Cursos\DiverseDev\Coding Tank\Desafios\Desafio 03\obj\Debug\net6.0\Desafio 03.AssemblyInfo.cs
+D:\Documentos\Cursos\DiverseDev\Coding Tank\Desafios\Desafio 03\obj\Debug\net6.0\Desafio 03.csproj.CoreCompileInputs.cache
+D:\Documentos\Cursos\DiverseDev\Coding Tank\Desafios\Desafio 03\obj\Debug\net6.0\Desafio 03.dll
+D:\Documentos\Cursos\DiverseDev\Coding Tank\Desafios\Desafio 03\obj\Debug\net6.0\refint\Desafio 03.dll
+D:\Documentos\Cursos\DiverseDev\Coding Tank\Desafios\Desafio 03\obj\Debug\net6.0\Desafio 03.pdb
+D:\Documentos\Cursos\DiverseDev\Coding Tank\Desafios\Desafio 03\obj\Debug\net6.0\Desafio 03.genruntimeconfig.cache
+D:\Documentos\Cursos\DiverseDev\Coding Tank\Desafios\Desafio 03\obj\Debug\net6.0\ref\Desafio 03.dll
