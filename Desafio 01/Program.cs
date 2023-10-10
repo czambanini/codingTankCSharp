@@ -2,17 +2,44 @@
 {
     private static void Main(string[] args)
     {
-        //desafio 01
-        Console.Write("Digite um número inteiro: ");
-        int numA = int.Parse(Console.ReadLine());
-        Console.Write("Digite outro número inteiro: ");
-        int numB = int.Parse(Console.ReadLine());
+        int numA, numB, operacao;
 
-        int soma = numA + numB;
-        int sub = numA - numB;
-        double div = numA / numB;
-        int mult = numA * numB;
+        //tratamento com TryParse + Do-While para repetir a pergunta enquanto o usuário não digitar um número inteiro
+        do {
+            Console.Write("Digite o 1º número inteiro: ");
+        } while (!int.TryParse(Console.ReadLine(), out numA));
+        do{
+            Console.Write("Digite o 2º número inteiro: ");
+        } while (!int.TryParse(Console.ReadLine(), out numB));
 
-        Console.Write($"Os resultados são soma {soma}, subtração {sub}, divisão {div} e multiplicação {mult}");
+        Console.WriteLine("\n1. adição \n2. subtração \n3. divisão \n4. multiplicação");
+        do{
+            Console.Write("Digite o número da operação desejada: ");
+        } while (!int.TryParse(Console.ReadLine(), out operacao));
+
+        //switch case para escolha da operação
+        switch (operacao)
+        {
+            case 1:
+                int soma = numA + numB;
+                Console.Write($"{numA} + {numB} = {soma}");
+                break;
+            case 2:
+                int sub = numA - numB;
+                Console.Write($"{numA} - {numB} = {sub}");
+                break;
+            case 3:
+                float div = (float)numA / numB;
+                Console.Write($"{numA} / {numB} = {div:F2}");
+                break;
+            case 4:
+                int mult = numA * numB;
+                Console.Write($"{numA} * {numB} = {mult}");
+                break;
+            default:
+                Console.Write("Número não cadastrado. Fim da aplicação.");
+                break;
+        }
+
     }
 }
