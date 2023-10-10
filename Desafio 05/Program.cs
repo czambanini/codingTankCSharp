@@ -12,8 +12,8 @@
         {
             float diferenca = pescaDoDia - limitePesca;
             float multa = diferenca * valorMulta;
-            Console.WriteLine($"Houve exeço de {diferenca}kg");
-            Console.WriteLine($"Valor a ser pago: R${multa}");
+            Console.WriteLine($"Houve exeço de {diferenca:F2}kg");
+            Console.WriteLine($"Valor a ser pago: R${multa:F2}");
         } else
         {
             Console.WriteLine($"Peso exetido: 0kg.");

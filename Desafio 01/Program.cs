@@ -4,13 +4,16 @@
     {
         int numA, numB, operacao;
 
-        //tratamento com TryParse + Do-While para repetir a pergunta enquanto o usuário não digitar um número inteiro
-        do {
-            Console.Write("Digite o 1º número inteiro: ");
-        } while (!int.TryParse(Console.ReadLine(), out numA));
-        do{
-            Console.Write("Digite o 2º número inteiro: ");
-        } while (!int.TryParse(Console.ReadLine(), out numB));
+        //tratamento com TryParse + While para repetir a pergunta enquanto o usuário não digitar um número inteiro
+        Console.Write("Digite o 1º número inteiro: ");
+        while (!int.TryParse(Console.ReadLine(), out numA)){
+            Console.Write("Número inválido, digite de novo: ");
+        }
+        Console.Write("Digite o 2º número inteiro: ");
+        while (!int.TryParse(Console.ReadLine(), out numB)) {
+            Console.Write("Número inválido, digite de novo: ");
+        }
+        
 
         Console.WriteLine("\n1. adição \n2. subtração \n3. divisão \n4. multiplicação");
         do{

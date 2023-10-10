@@ -15,24 +15,19 @@
             };
 
             //verificação da turma
-            if (idade < 8)
-            {
+            if (idade < 8){
                 Console.WriteLine("Infantil A");
             }
-            else if (idade < 12)
-            {
+            else if (idade < 12){
                 Console.WriteLine("Infantil B");
             }
-            else if (idade < 14)
-            {
+            else if (idade < 14){
                 Console.WriteLine("Juvenil A");
             }
-            else if (idade < 18)
-            {
+            else if (idade < 18){
                 Console.WriteLine("Juvenil B");
             }
-            else
-            {
+            else{
                 Console.WriteLine("Adulto");
             };
 
