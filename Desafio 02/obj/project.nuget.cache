@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Oda5MoUn7BkWSr2xqHH0l86TrBgdQJzy2A9OAkxqGZhHsozoBOFWVIFPsTkM/X6TvhrKthPVrS/FKeQB3J9ZvQ==",
+  "dgSpecHash": "Krkx57dO9avHhEmbLqm7EGKDXnLESfQLdmJpQcV7KN3i7lmOyHeMGA7exwBQfb3CSVtY3tj7B6SwFlVHZ2S56g==",
   "success": true,
   "projectFilePath": "D:\\Documentos\\Cursos\\DiverseDev\\Coding Tank\\Desafios\\Desafio 02\\Desafio 02.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\ka_za\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.1\\microsoft.netcore.platforms.1.1.1.nupkg.sha512",
+    "C:\\Users\\ka_za\\.nuget\\packages\\microsoft.netcore.targets\\1.1.3\\microsoft.netcore.targets.1.1.3.nupkg.sha512",
+    "C:\\Users\\ka_za\\.nuget\\packages\\system.runtime\\4.3.1\\system.runtime.4.3.1.nupkg.sha512"
+  ],
   "logs": []
 }

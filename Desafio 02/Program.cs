@@ -1,14 +1,38 @@
-﻿class Program
+﻿using System;
+using System.Data;
+using System.Globalization;
+using System.Text.RegularExpressions;
+using static System.Net.Mime.MediaTypeNames;
+
+class Program
 {
     private static void Main(string[] args)
     {
-        //desafio 02
-        Console.WriteLine("Digite o ano atual: ");
-        int anoAtual = int.Parse(Console.ReadLine());
-        Console.WriteLine("Digite o ano do seu nascimento: ");
-        int anoNasc = int.Parse(Console.ReadLine());
+        //data de hoje
+        DateTime dataHoje = DateTime.Today;
 
-        int idade = anoAtual - anoNasc;
-        Console.WriteLine($"Você tem ou fara {idade} anos esse ano");
+        //pede a data de nascimento do usuário
+        DateTime dataNasc;
+        Console.WriteLine("Digite a data do seu nascimento: ");
+        while (!DateTime.TryParse(Console.ReadLine(), new CultureInfo("pt-BR"), DateTimeStyles.None, out dataNasc))
+        {
+            Console.Write("Formato inválido, digite de novo: ");
+        }
+
+        int idade = dataHoje.Year - dataNasc.Year;
+        if (dataHoje.Month == dataNasc.Month && dataHoje.Day < dataNasc.Day)
+        {
+            idade = idade - 1;
+            Console.WriteLine($"Você tem {idade} anos.");
+        } 
+        else if (dataHoje.Month < dataNasc.Month)
+        {
+            idade = idade - 1;
+            Console.WriteLine($"Você tem {idade} anos.");
+        } else
+        {
+            Console.WriteLine($"Você tem {idade} anos.");
+        }
+
     }
 }
